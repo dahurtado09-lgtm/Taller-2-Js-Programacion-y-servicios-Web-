@@ -9,3 +9,9 @@ const students = [
 
 const mayorque80 = students.filter(alumnos => alumnos.course === "JavaScript" && alumnos.grade > 80);
 console.log(mayorque80)
+
+//Calcula el promedio de notas de todos los estudiantes
+
+const notas = students.reduce((acum, est) => acum + est.grade, 0);
+const promedio = notas / students.length;
+console.log("El promedio de las notas fue de: ", promedio)
