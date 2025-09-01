@@ -7,11 +7,16 @@ const students = [
 ];
 // Encuentra todos los estudiantes de JavaScript con nota mayor a 80
 
-const mayorque80 = students.filter(alumnos => alumnos.course === "JavaScript" && alumnos.grade > 80);
-console.log(mayorque80)
+const mayor_que_80 = students.filter(alumnos => alumnos.course === "JavaScript" && alumnos.grade > 80);
+console.log(mayor_que_80)
 
 //Calcula el promedio de notas de todos los estudiantes
 
 const notas = students.reduce((acum, est) => acum + est.grade, 0);
 const promedio = notas / students.length;
 console.log("El promedio de las notas fue de: ", promedio)
+
+//Obtén un array con solo los nombres de estudiantes mayores de 20 años
+
+const mayores_que_20 = students.filter(nombres => nombres.age > 20);
+console.log("\nLista de mayores de edad: ", mayores_que_20)
