@@ -20,3 +20,8 @@ console.log("El promedio de las notas fue de: ", promedio)
 
 const mayores_que_20 = students.filter(nombres => nombres.age > 20);
 console.log("\nLista de mayores de edad: ", mayores_que_20)
+
+//Encuentra el estudiante con la nota más alta
+
+const nota_mayor = students.reduce((mejor_nota, est) => est.grade > mejor_nota.grade ? est : mejor_nota );
+console.log("\nEl estudiante con la nota mas alta es:\n", nota_mayor);
