@@ -25,7 +25,6 @@ function validar_Producto(producto) {
   );
 }
 
-// ----------------- PRUEBAS -----------------
 console.log("Correo valido:", validar_Correo("usuario@correo.com")); // true
 console.log("Correo inválido:", validar_Correo("usuariocorreo.com")); // false
 
