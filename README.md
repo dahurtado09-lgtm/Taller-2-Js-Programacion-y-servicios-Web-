@@ -39,7 +39,7 @@ En este repositorio encontraras la solucion de varios ejercicios de programació
 
 ---
 
-## Ejecturar los ejercicios 😮‍💨
+## Ejecutar los ejercicios 😮‍💨
 1. Abre la terminal en la carpeta del proyecto.  
 2. Ejecuta cada archivo con:  
    ```bash
